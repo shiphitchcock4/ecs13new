@@ -2,11 +2,11 @@ jobs:
   - name: ecstest131
     type: manifest
     steps:
-      - GET res131
+      - GET: res131
       
 
   - name : deployecs131
     type: ecsDeploy
     steps:
-      - GET ecstest13
-      - GET res132
+      - GET: ecstest131
+      - GET: res132
