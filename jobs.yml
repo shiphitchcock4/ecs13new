@@ -1,12 +1,12 @@
 jobs:
-  - name: ecstestnew1
+  - name: ecstest13
     type: manifest
     steps:
-      - GET resource101
+      - GET res131
       
 
-  - name : deployecs101
+  - name : deployecs13
     type: ecsDeploy
     steps:
-      - GET ecstestnew1
-      - GET resource102
+      - GET ecstest13
+      - GET reso132
